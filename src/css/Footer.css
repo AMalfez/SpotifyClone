@@ -1,0 +1,63 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 97%;
+    background-color: #282828;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left{
+    flex: 0.3;
+}
+.footer__center{
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+.VolumeButton{
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+.slider{
+    width: 50px;
+}
+.footer__right{
+    flex: 0.4;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer__left img{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.footer__left{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 0.3;
+    width: 300px;
+}
+.footer__songDetails p{
+    font-size: 12px;
+}
+.footer__songDetails h4{
+    margin-bottom: 5px;
+}
+.footer__center .fa-solid:hover{
+ transition: transform 0.2s ease-in-out;
+ transform: scale(1.2);
+}

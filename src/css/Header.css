@@ -1,0 +1,28 @@
+.avatar__logo i{
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.header__left{
+    background-color: white;
+    color: gray;
+    min-width: 90px;
+    flex: 0.5;
+    padding: 10px;
+    border-radius: 30px;
+    display:  flex;
+    margin-right: 50px;
+    align-items: center;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__right h4{
+    margin-left: 10px;
+}
